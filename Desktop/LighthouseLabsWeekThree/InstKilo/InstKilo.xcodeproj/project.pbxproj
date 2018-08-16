@@ -15,6 +15,10 @@
 		A1F3F8612124BA73001D3DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8602124BA73001D3DC9 /* main.m */; };
 		A1F3F86B2124BA73001D3DC9 /* InstKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F86A2124BA73001D3DC9 /* InstKiloTests.m */; };
 		A1F3F8762124BA73001D3DC9 /* InstKiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8752124BA73001D3DC9 /* InstKiloUITests.m */; };
+		A1F3F8852124BC8A001D3DC9 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8842124BC8A001D3DC9 /* PhotoViewController.m */; };
+		A1F3F8A62124C513001D3DC9 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8A52124C512001D3DC9 /* Photo.m */; };
+		A1F3F8A92124CDE6001D3DC9 /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8A82124CDE6001D3DC9 /* PhotoViewCell.m */; };
+		A1F3F8AC21251629001D3DC9 /* headerCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F8AB21251629001D3DC9 /* headerCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		A1F3F8712124BA73001D3DC9 /* InstKiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstKiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F3F8752124BA73001D3DC9 /* InstKiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstKiloUITests.m; sourceTree = "<group>"; };
 		A1F3F8772124BA73001D3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F3F8832124BC8A001D3DC9 /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		A1F3F8842124BC8A001D3DC9 /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		A1F3F8A42124C512001D3DC9 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		A1F3F8A52124C512001D3DC9 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		A1F3F8A72124CDE6001D3DC9 /* PhotoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
+		A1F3F8A82124CDE6001D3DC9 /* PhotoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
+		A1F3F8AA21251629001D3DC9 /* headerCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headerCollectionReusableView.h; sourceTree = "<group>"; };
+		A1F3F8AB21251629001D3DC9 /* headerCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headerCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +116,15 @@
 				A1F3F8512124BA71001D3DC9 /* AppDelegate.h */,
 				A1F3F8522124BA71001D3DC9 /* AppDelegate.m */,
 				A1F3F8542124BA71001D3DC9 /* ViewController.h */,
+				A1F3F8A42124C512001D3DC9 /* Photo.h */,
+				A1F3F8A52124C512001D3DC9 /* Photo.m */,
 				A1F3F8552124BA71001D3DC9 /* ViewController.m */,
+				A1F3F8832124BC8A001D3DC9 /* PhotoViewController.h */,
+				A1F3F8842124BC8A001D3DC9 /* PhotoViewController.m */,
+				A1F3F8AA21251629001D3DC9 /* headerCollectionReusableView.h */,
+				A1F3F8AB21251629001D3DC9 /* headerCollectionReusableView.m */,
+				A1F3F8A72124CDE6001D3DC9 /* PhotoViewCell.h */,
+				A1F3F8A82124CDE6001D3DC9 /* PhotoViewCell.m */,
 				A1F3F8572124BA71001D3DC9 /* Main.storyboard */,
 				A1F3F85A2124BA73001D3DC9 /* Assets.xcassets */,
 				A1F3F85C2124BA73001D3DC9 /* LaunchScreen.storyboard */,
@@ -263,7 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F3F8562124BA71001D3DC9 /* ViewController.m in Sources */,
+				A1F3F8852124BC8A001D3DC9 /* PhotoViewController.m in Sources */,
 				A1F3F8612124BA73001D3DC9 /* main.m in Sources */,
+				A1F3F8AC21251629001D3DC9 /* headerCollectionReusableView.m in Sources */,
+				A1F3F8A92124CDE6001D3DC9 /* PhotoViewCell.m in Sources */,
+				A1F3F8A62124C513001D3DC9 /* Photo.m in Sources */,
 				A1F3F8532124BA71001D3DC9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
