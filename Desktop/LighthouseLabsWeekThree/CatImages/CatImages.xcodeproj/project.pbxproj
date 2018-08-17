@@ -15,6 +15,8 @@
 		A1F3F94821264F8C001D3DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F94721264F8C001D3DC9 /* main.m */; };
 		A1F3F95221264F8C001D3DC9 /* CatImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F95121264F8C001D3DC9 /* CatImagesTests.m */; };
 		A1F3F95D21264F8C001D3DC9 /* CatImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F95C21264F8C001D3DC9 /* CatImagesUITests.m */; };
+		A1F3F96C212660AC001D3DC9 /* PhotoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F96B212660AC001D3DC9 /* PhotoClass.m */; };
+		A1F3F96F212670F3001D3DC9 /* myPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F96E212670F3001D3DC9 /* myPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A1F3F95821264F8C001D3DC9 /* CatImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F3F95C21264F8C001D3DC9 /* CatImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatImagesUITests.m; sourceTree = "<group>"; };
 		A1F3F95E21264F8C001D3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F3F96A212660AC001D3DC9 /* PhotoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoClass.h; sourceTree = "<group>"; };
+		A1F3F96B212660AC001D3DC9 /* PhotoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoClass.m; sourceTree = "<group>"; };
+		A1F3F96D212670F3001D3DC9 /* myPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myPhotoCell.h; sourceTree = "<group>"; };
+		A1F3F96E212670F3001D3DC9 /* myPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				A1F3F93B21264F8B001D3DC9 /* ViewController.h */,
 				A1F3F93C21264F8B001D3DC9 /* ViewController.m */,
 				A1F3F93E21264F8B001D3DC9 /* Main.storyboard */,
+				A1F3F96D212670F3001D3DC9 /* myPhotoCell.h */,
+				A1F3F96E212670F3001D3DC9 /* myPhotoCell.m */,
+				A1F3F96A212660AC001D3DC9 /* PhotoClass.h */,
+				A1F3F96B212660AC001D3DC9 /* PhotoClass.m */,
 				A1F3F94121264F8C001D3DC9 /* Assets.xcassets */,
 				A1F3F94321264F8C001D3DC9 /* LaunchScreen.storyboard */,
 				A1F3F94621264F8C001D3DC9 /* Info.plist */,
@@ -265,6 +275,8 @@
 				A1F3F93D21264F8B001D3DC9 /* ViewController.m in Sources */,
 				A1F3F94821264F8C001D3DC9 /* main.m in Sources */,
 				A1F3F93A21264F8B001D3DC9 /* AppDelegate.m in Sources */,
+				A1F3F96F212670F3001D3DC9 /* myPhotoCell.m in Sources */,
+				A1F3F96C212660AC001D3DC9 /* PhotoClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
